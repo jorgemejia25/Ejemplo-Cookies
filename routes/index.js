@@ -14,9 +14,5 @@ router.get('/idioma', (req, res) => {
     res.redirect('/')
 })
 
-// router.get('/veridioma', (req, res) => {
-//     // res.send('Idioma: ' + req.query.idioma);
-//     res.send('Idioma: ' + req.cookies.uwu)
-// })
 
 module.exports = router;
